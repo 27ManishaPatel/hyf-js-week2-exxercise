@@ -53,3 +53,61 @@ let whatever = 0;
 for (let whatever = 0; whatever < 0; whatever++) {
     console.log(whatever)
 }
+// Exercise toi find largest number
+
+let arr = [2, 45, 3, 67, 34, 567, 34, 345, 123];
+let largest = arr[0];
+
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > largest) {
+        largest = arr[i];
+    }
+}
+console.log("The largest number is " + largest);
+
+//exercise to ask students 
+const studentsArray = ["Lucia", "Reenu", "Lokesh", "Prakash"];
+
+
+for (let i = 0; i < studentsArray.length; i++) {
+    console.log("Are you present " + studentsArray[i] + "?")
+}
+
+
+// lets buy a falafal
+let myMoney = 200;
+const falafalPrice = 20;
+
+for (let myMoney = 200; myMoney > 0; myMoney -= falafalPrice) {
+    console.log("you bought a falafel")
+}
+
+
+
+
+
+
+
+
+
+// function toAsk(studentsArray) {
+
+//     if (studentsArray[i] = presence) {
+//         for (let i = 0; i < studentsArray.length; i++) {
+//             student = studentsArray[i];
+//         }
+//         console.log("Are you present " + studentsArray[i])
+//     } else {
+//         console.log("I am not present")
+//     }
+
+// }
+
+
+
+// const studentsArray = ["Lucia", "Reenu", "Lokesh, "Violeta" ] 
+// const student = studentsArray[0];
+// for (let i = 0; i < studentsArray.length; i++) {
+    // student = studentsArray[i];
+
+
